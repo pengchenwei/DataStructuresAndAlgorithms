@@ -47,6 +47,17 @@ public class Problem03_RemoveNodeByRatio {
 		return head;
 	}
 
+	/**
+	 * @MethodName: removeByRatio
+	 * @Description: 删除链表a/b处节点
+	 * @param head
+	 *            头节点
+	 * @param a
+	 * @param b
+	 * @return 新链表头节点
+	 * @author pen
+	 * @CreatTime: 2016年9月5日 上午11:36:33
+	 */
 	private static Node removeByRatio(Node head, int a, int b) {
 		// 不满足条件的
 		if (a < 1 || a > b)
